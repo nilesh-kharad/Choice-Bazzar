@@ -57,7 +57,7 @@ exports.login = async (req, res) => {
         if (email == user.email && password == user.password) {
             let session = req.session;
             session.userid = req.body.username;
-            res.render('profile',{data:user})
+            res.send(session.username);
         }
         else {
             res.send('<script>alert ("Invalid username or password")</script>');
