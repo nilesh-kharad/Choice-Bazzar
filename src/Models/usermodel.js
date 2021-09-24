@@ -5,7 +5,6 @@ const userdbstruct = new mongoose.Schema({
     name: {
         type: String,
         required: true,
-        minlength:10
     },
     email: {
         type: String,
@@ -14,10 +13,9 @@ const userdbstruct = new mongoose.Schema({
     },
     phone: {
         type: String,
-        required: true,
-        min:10,
-        max: 10,
-        unique:true
+        
+       
+        // unique:true
     },
     password: {
         type: String,

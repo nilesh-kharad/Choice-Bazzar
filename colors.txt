@@ -1,3 +1,20 @@
+
+
+Colors below
+
 header :- #72d7e3
 
 Nav/baar :-#fff700
+
+
+Apis for CB
+1)Sign in
+2)Sign up
+3)Forget password
+4)category
+5)subcategory
+6)Product Description
+7)Add To Cart
+8)Search by text
+9)Notification
+10)Menu
